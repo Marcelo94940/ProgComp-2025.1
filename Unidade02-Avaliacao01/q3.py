@@ -100,7 +100,7 @@ for rodada in range(1, tentativas + 1):
 
         #Se as duas palavras forem descobertas, o jogo termina com parabéns.
         if len(descobertas) == 2:
-            print("🎉 Parabéns! Você descobriu as duas palavras!")
+            print("Parabéns! Você descobriu as duas palavras!")
             break  # Encerra o laço de tentativas
     except Exception as e:     #Captura qualquer erro que acontecer durante a execução.
        
